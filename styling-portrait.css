@@ -1,6 +1,7 @@
 h1 {
     display: flex;
     justify-content: center;
+    
 }
 
 h3 {display: flex;
@@ -8,19 +9,28 @@ h3 {display: flex;
 }
 .images {
     display: flex;
+
     flex-wrap: wrap;
     width: 40rem;
     border-radius: 1rem;
     
 }
-
+.align-images {
+    display: flex;
+    width: 100vw;
+    justify-content: center;
+}
 img {
     width: 40%;
     object-fit: cover;
     padding: 2rem;
     flex-wrap: wrap;
+    border-radius: 3rem;
 }
 
 body {
-    background-image: radial-gradient(#D1E8E2,#19747E , #A9D6E5 , light gray )
+    background-attachment: fixed;
+    background-image: radial-gradient(#D1E8E2,#19747E , #A9D6E5 , #E2E2E2)
 }
+
+
